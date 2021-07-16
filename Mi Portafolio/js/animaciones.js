@@ -33,11 +33,7 @@ sr.reveal('#Proyecto', {
   });
 
 
-sr.reveal('#DescripcionProyecto', {
-    duration: 8000,
-    origin: 'Bottom',
-    distance: '900px'
-    });
+
 
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 anchor.addEventListener('click', function (e) {
